@@ -100,9 +100,6 @@ address { font-style: normal; }
 .nav__brand { display: flex; align-items: center; gap: .6rem; margin-right: auto; text-decoration: none; }
 .nav__brand img { width: 2.3rem; height: auto; }
 .nav__brand span { font-family: var(--font-hand); font-size: 1.75rem; line-height: 1; }
-.nav__links { display: flex; gap: clamp(1rem, 2.4vw, 2rem); font-family: var(--font-head); font-weight: 500; font-size: 1.05rem; }
-.nav__links a { text-decoration: none; padding: .4rem .1rem; background: linear-gradient(var(--honey), var(--honey)) 0 92% / 0 3px no-repeat; transition: background-size .35s var(--ease); }
-.nav__links a:hover { background-size: 100% 3px; }
 
 /* ---------- Surface: sky, hill, pup ---------- */
 .surface {
@@ -335,7 +332,6 @@ address { font-style: normal; }
 }
 
 @media (max-width: 760px) {
-  .nav__links { display: none; }
   .nav__brand span { font-size: 1.45rem; }
   .surface { --hill-h: 9.5rem; min-height: 33rem; }
   .surface__copy { padding-top: 5.75rem; }
