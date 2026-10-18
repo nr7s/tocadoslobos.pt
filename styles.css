@@ -280,7 +280,7 @@ address { font-style: normal; }
 /* ---------- Terms page: one long chamber ---------- */
 .surface--page { min-height: 0; padding-bottom: calc(var(--hill-h) * .55); --hill-h: clamp(7rem, 14vw, 10rem); }
 .surface--page .surface__copy { max-width: 52rem; }
-.surface--page h1 { font-size: clamp(2.6rem, 5.4vw, 4.4rem); }
+.surface--page h1 { font-size: clamp(2.1rem, 4.6vw, 3.8rem); }
 .den--page { padding-top: clamp(2.5rem, 4vw, 3.5rem); }
 .legal { max-width: 52rem; }
 .legal h2 { font-size: clamp(1.35rem, 2.2vw, 1.65rem); margin: 2.2rem 0 .8rem; }
@@ -308,6 +308,7 @@ address { font-style: normal; }
 .icon svg .fill { fill: currentColor; stroke: none; }
 .icon:hover { background: var(--honey); color: var(--ink); border-color: var(--honey); }
 .lr img { width: auto; height: 3.1rem; background: #fff; border-radius: 8px; padding: .25rem .4rem; }
+.lr--tp img { height: 4.6rem; padding: .3rem; } /* funding notice: its small print has to stay legible */
 .bedrock__fine { grid-column: 1 / -1; font-size: .9rem; color: #b5aea4; border-top: 1px solid rgba(233, 228, 220, .14); padding-top: 1.2rem; }
 .bedrock :focus-visible { outline-color: var(--honey); }
 
