@@ -210,7 +210,7 @@ address { font-style: normal; }
   aspect-ratio: 1; border-radius: 50% 50% 46% 48% / 52% 50% 48% 46%;
   text-decoration: none; margin-top: clamp(0rem, 2vw, 1.5rem);
 }
-.chamber--window img { width: 100%; height: 100%; object-fit: cover; transition: transform 1.2s var(--ease); }
+.chamber--window img { width: 100%; height: 100%; object-fit: cover; object-position: 22% 50%; transition: transform 1.2s var(--ease); }
 .chamber--window:hover img { transform: scale(1.05); }
 .chamber--window::after { content: ""; position: absolute; inset: 0; border-radius: inherit; box-shadow: var(--hollow); pointer-events: none; }
 .window__tag {
